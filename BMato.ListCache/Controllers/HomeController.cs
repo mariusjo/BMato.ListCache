@@ -5,7 +5,7 @@ using System.Web.Mvc;
 
 namespace BMato.SPA.ListCache.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class HomeController : Controller
     {
         public ActionResult Index()

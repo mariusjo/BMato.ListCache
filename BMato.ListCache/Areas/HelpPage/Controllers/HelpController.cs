@@ -3,12 +3,12 @@ using System.Web.Http;
 using System.Web.Mvc;
 using BMato.SPA.ListCache.Areas.HelpPage.ModelDescriptions;
 using BMato.SPA.ListCache.Areas.HelpPage.Models;
-
 namespace BMato.SPA.ListCache.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.
     /// </summary>
+    /// 
     public class HelpController : Controller
     {
         private const string ErrorViewName = "Error";
