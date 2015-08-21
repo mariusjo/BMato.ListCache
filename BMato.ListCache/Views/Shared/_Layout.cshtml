@@ -22,7 +22,7 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, null)</li>
-                    <li>@Html.ActionLink("API", "Index", "Help", new { area = "HelpPage" }, null)</li>
+                    @*<li>@Html.ActionLink("API", "Index", "Help", new { area = "HelpPage" }, null)</li>*@
                 </ul>
                 @*@Html.Partial("_LoginPartial")*@
             </div>
@@ -31,7 +31,7 @@
     <div class="container body-content">
         @*@RenderBody()*@
         @*@RenderSection("SPAViews", required: false)*@
-        <h1>UNDER CONSTRUCTION :)</h1>
+        <h1>Under Construction</h1>
         <hr />
         <footer>
             <p>&copy; @DateTime.Now.Year - LISTCACHE</p>
